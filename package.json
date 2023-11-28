@@ -1,14 +1,17 @@
 {
 	"name": "@haus23/runde-tips-db",
 	"version": "0.0.0",
+	"type": "module",
 	"scripts": {
 		"generate": "drizzle-kit generate:sqlite",
-		"push": "drizzle-kit push:sqlite"
+		"push": "drizzle-kit push:sqlite",
+		"migrate": "tsx src/migrate"
 	},
 	"dependencies": {
 		"@libsql/client": "0.4.0-pre.2",
 		"drizzle-kit": "^0.20.6",
-		"drizzle-orm": "^0.29.0"
+		"drizzle-orm": "^0.29.0",
+		"tsx": "^4.6.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.4.0",
