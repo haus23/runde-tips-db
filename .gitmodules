@@ -1,0 +1,3 @@
+[submodule "runde-tips-www"]
+	path = runde-tips-www
+	url = https://github.com/haus23/runde-tips-www.git
