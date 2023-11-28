@@ -5,5 +5,6 @@ export default {
 	driver: 'libsql',
 	dbCredentials: {
 		url: process.env.DATABASE_URL || 'file:../runde-tips-www/data/development.db',
-	}
+	},
+	out: 'migrations'
 } satisfies Config;
