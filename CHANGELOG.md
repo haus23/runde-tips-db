@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.0
+
+[compare changes](https://github.com/haus23/runde-tips-db/compare/v0.0.2...v0.1.0)
+
+### 🚀 Enhancements
+
+- Create user table migration. ([098c027](https://github.com/haus23/runde-tips-db/commit/098c027))
+
+### ❤️ Contributors
+
+- Micha Buchholz <micha@haus23.net>
+
 ## v0.0.2
 
 [compare changes](https://github.com/haus23/runde-tips-db/compare/v0.0.1...v0.0.2)
