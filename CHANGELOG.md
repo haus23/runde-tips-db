@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.2
+
+[compare changes](https://github.com/haus23/runde-tips-db/compare/v0.0.1...v0.0.2)
+
+### 🚀 Enhancements
+
+- Add dockerfile and publish workflow. ([b483285](https://github.com/haus23/runde-tips-db/commit/b483285))
+
+### ❤️ Contributors
+
+- Micha Buchholz <micha@haus23.net>
+
 ## v0.0.1
 
 
