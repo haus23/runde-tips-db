@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://github.com/haus23/runde-tips-db/compare/v0.1.0...v0.2.0)
+
+### 🚀 Enhancements
+
+- Generate migrations for ruleset and championship table. ([18ca40b](https://github.com/haus23/runde-tips-db/commit/18ca40b))
+- Create seed scripts. ([70df659](https://github.com/haus23/runde-tips-db/commit/70df659))
+
+### 🏡 Chore
+
+- Update deps. ([5122aee](https://github.com/haus23/runde-tips-db/commit/5122aee))
+- Add studio script and describe workflow. ([d539a32](https://github.com/haus23/runde-tips-db/commit/d539a32))
+- **dx:** Use tipprunde types. ([c389a96](https://github.com/haus23/runde-tips-db/commit/c389a96))
+- Update www ([b6d423b](https://github.com/haus23/runde-tips-db/commit/b6d423b))
+
+### ❤️ Contributors
+
+- Micha Buchholz <micha@haus23.net>
+
 ## v0.1.0
 
 [compare changes](https://github.com/haus23/runde-tips-db/compare/v0.0.2...v0.1.0)
