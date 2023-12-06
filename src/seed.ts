@@ -1,7 +1,11 @@
+import { seedChampionships } from './seeds/championships';
+import { seedRulesets } from './seeds/rulesets';
 import { seedUsers } from './seeds/users';
 
 async function seed() {
 	await seedUsers();
+	await seedRulesets();
+	await seedChampionships();
 }
 
 seed()
