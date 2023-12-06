@@ -10,11 +10,13 @@
 		"seed": "tsx src/seed"
 	},
 	"dependencies": {
+		"@haus23/tipprunde-types": "^0.13.1",
 		"@libsql/client": "0.4.0-pre.5",
 		"drizzle-kit": "^0.20.6",
 		"drizzle-orm": "0.29.1",
 		"ky": "^1.1.3",
-		"tsx": "^4.6.2"
+		"tsx": "^4.6.2",
+		"zod": "^3.22.4"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.4.1",

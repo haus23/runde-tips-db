@@ -1,14 +1,17 @@
 import ky from 'ky';
 import { userTable } from '../../runde-tips-www/db/schema';
-import { libsqlDb } from '../libsql-db';
+import { libsqlDb as db } from '../libsql-db';
+
+import { type Account } from '@haus23/tipprunde-types/dist/index';
+type AccountWithRule = Account & { role?: string };
 
 export async function seedUsers() {
 	const users = await ky
 		.get('https://backend.runde.tips/api/v1/accounts')
-		.json<Record<string, string>[]>();
+		.json<AccountWithRule[]>();
 
 	for await (const user of users) {
-		await libsqlDb
+		await db
 			.insert(userTable)
 			.values({
 				name: user.name,

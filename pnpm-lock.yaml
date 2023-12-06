@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@haus23/tipprunde-types':
+    specifier: ^0.13.1
+    version: 0.13.1
   '@libsql/client':
     specifier: 0.4.0-pre.5
     version: 0.4.0-pre.5
@@ -20,6 +23,9 @@ dependencies:
   tsx:
     specifier: ^4.6.2
     version: 4.6.2
+  zod:
+    specifier: ^3.22.4
+    version: 3.22.4
 
 devDependencies:
   '@biomejs/biome':
@@ -785,6 +791,13 @@ packages:
   /@fastify/busboy@2.1.0:
     resolution: {integrity: sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==}
     engines: {node: '>=14'}
+    dev: false
+
+  /@haus23/tipprunde-types@0.13.1:
+    resolution: {integrity: sha512-n61hBhsMDjgwkTJxYTR2fGXgrLO9vXo78oljxsUbbgN6j5XfDVVjIL9wC8OKNLsnHfkqS84za/M0MDF1oGxX/Q==}
+    engines: {node: '>=16'}
+    dependencies:
+      zod: 3.22.4
     dev: false
 
   /@libsql/client@0.4.0-pre.5:
